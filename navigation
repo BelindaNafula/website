@@ -1,0 +1,29 @@
+/* styles.css */
+
+nav {
+    background-color: #077d81; /* Background color of the navigation bar */
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* This displays the list items horizontally */
+    justify-content: left; 
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #f0f0f0; /* Text color of the navigation links */
+  }
+  
+  a:hover {
+    background-color: #555; /* Background color when hovering over a link */
+  }
+  
